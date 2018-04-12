@@ -1,0 +1,26 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+#home {
+    background-color: #263238;
+    width: 100vw;
+    height: 100%;
+}
+
+.canvas {
+    width: 100%;
+    height: 900px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 950px;
+    overflow: auto;
+}
