@@ -5,8 +5,13 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <script>
+        FontAwesomeConfig = { searchPseudoElements: true };
+    </script>
+    <script defer src="/fonts/fa/fontawesome-all.js"></script>
 </head>
 <body>
+<!--HOME-->
     <section id="home" class="main">
         <div class="canvas">
 
@@ -18,3 +23,53 @@
     </section>
 </body>
 </html>
+
+<!-- HOME -->
+<section id="home" class="flex height-fix">
+    <div id="pt" class="canvas"></div>
+    <div class="flex">
+
+        <div class="text">
+            Hello, I'm <span class="highlight">Caitlin Doyle</span>.
+            <br>
+            I'm a full-stack web developer in training.
+        </div>
+
+        <div class="button page-link" dest="about">See my work <i class="fa fa-arrow-right"></i></div>
+
+        <nav class="flex">
+            <div class="link-wrap">
+                <div class="active page-link" dest="home">home</div>
+                <div class="page-link" dest="about">about</div>
+                <div class="page-link" dest="portfolio">portfolio</div>
+                <div class="page-link" dest="blog">blog</div>
+                <div class="page-link" dest="contact">contact</div>
+            </div>
+            <i class="fa fa-bars"></i>
+        </nav>
+    </div>
+
+</section>
+
+
+<!-- PROJECT POP UP -->
+<div class="modal-wrap flex">
+    <div class="mask"></div>
+    <div class="modal" id="modal">
+        <div class="carousel-wrap">
+            <div class="window">
+                <div class="project-image"></div>
+                <i class="mdi mdi-chevron-left" id="prev"></i>
+                <i class="mdi mdi-chevron-right" id="next"></i>
+            </div>
+        </div>
+        <div class="info-box">
+            <div class="title"></div>
+            <div class="tag"></div>
+            <div class="detail"></div>
+            <a href="#" target="_blank"><button class="button"><i class="mdi mdi-open-in-new"></i>View Project</button></a>
+        </div>
+        <i class="close mdi mdi-close"></i>
+    </div>
+</div>
+
