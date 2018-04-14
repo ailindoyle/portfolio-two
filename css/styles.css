@@ -6,23 +6,68 @@
 
 body {
     font-family: 'Raleway', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5rem;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*HOME*/
 
 #home {
     background-color: #263238;
     width: 100vw;
     height: 100%;
-    color: #ffffff;
 }
 
 .canvas {
-    width: 100%;
-    height: 900px;
-    position: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
 }
 
 .container {
     margin: 0 auto;
     width: 950px;
     overflow: auto;
+}
+
+.home-banner {
+    font-size: 3rem;
+    padding: 100px 0 25px;
+}
+
+.highlight {
+    color: #00c78e;
+}
+
+.button {
+    padding: 10px 20px;
+    border: 2px solid #ffffff;
+    box-sizing: inherit;
+    display: inline-block;
+    font-size: 2rem;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #00c78e;
+    border-color: #00c78e;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    float: left;
+    margin-right: 25px;
+    padding: 7px;
+    border-radius: 5px;
 }

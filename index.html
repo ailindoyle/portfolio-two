@@ -8,68 +8,33 @@
     <script>
         FontAwesomeConfig = { searchPseudoElements: true };
     </script>
-    <script defer src="/fonts/fa/fontawesome-all.js"></script>
+    <script defer src="/fonts/fontawesome-free-5.0.10/svg-with-js/js/fontawesome-all.js"></script>
 </head>
 <body>
-<!--HOME-->
-    <section id="home" class="main">
-        <div class="canvas">
-
-        </div>
-        <div class="container">
-            <div class="intro">Hello, name, info</div>
-            <button type="button">See my work</button>
-        </div>
-    </section>
-</body>
-</html>
 
 <!-- HOME -->
-<section id="home" class="flex height-fix">
-    <div id="pt" class="canvas"></div>
-    <div class="flex">
-
-        <div class="text">
-            Hello, I'm <span class="highlight">Caitlin Doyle</span>.
+<section id="home">
+    <div class="canvas"></div>
+    <div class="container">
+        <div class="home-banner">
+            <span class="highlight">Caitlin Doyle</span>
             <br>
-            I'm a full-stack web developer in training.
+            Full-stack web developer in training
         </div>
 
-        <div class="button page-link" dest="about">See my work <i class="fa fa-arrow-right"></i></div>
-
-        <nav class="flex">
-            <div class="link-wrap">
-                <div class="active page-link" dest="home">home</div>
-                <div class="page-link" dest="about">about</div>
-                <div class="page-link" dest="portfolio">portfolio</div>
-                <div class="page-link" dest="blog">blog</div>
-                <div class="page-link" dest="contact">contact</div>
-            </div>
-            <i class="fa fa-bars"></i>
-        </nav>
+        <div class="button page-link">See my work
+            <i class="fas fas-arrow-right"></i>
+        </div>
     </div>
 
+    <nav class="container">
+        <ul class="navigation">
+            <li>home</li>
+            <li>about</li>
+            <li>portfolio</li>
+            <li>contact</li>
+        </ul>
+        <i class="fas fas-bars"></i>
+    </nav>
 </section>
-
-
-<!-- PROJECT POP UP -->
-<div class="modal-wrap flex">
-    <div class="mask"></div>
-    <div class="modal" id="modal">
-        <div class="carousel-wrap">
-            <div class="window">
-                <div class="project-image"></div>
-                <i class="mdi mdi-chevron-left" id="prev"></i>
-                <i class="mdi mdi-chevron-right" id="next"></i>
-            </div>
-        </div>
-        <div class="info-box">
-            <div class="title"></div>
-            <div class="tag"></div>
-            <div class="detail"></div>
-            <a href="#" target="_blank"><button class="button"><i class="mdi mdi-open-in-new"></i>View Project</button></a>
-        </div>
-        <i class="close mdi mdi-close"></i>
-    </div>
-</div>
 
