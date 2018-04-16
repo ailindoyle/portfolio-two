@@ -5,11 +5,12 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
-    <!--<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script>
         FontAwesomeConfig = { searchPseudoElements: true };
     </script>
     <script defer src="fonts/fontawesome/fontawesome-all.min.js"></script>
+    <script defer src="js/index.js"></script>
 </head>
 <body>
 
@@ -23,9 +24,9 @@
             Full-stack web developer in training
         </div>
 
-        <div class="button page-link">See my work
+        <button class="drop-button page-link" type="button">See my work
             <i class="fa fa-arrow-right"></i>
-        </div>
+        </button>
     </div>
 
     <nav class="container">
@@ -35,6 +36,8 @@
             <li>portfolio</li>
             <li>contact</li>
         </ul>
-        <i class="fa fa-bars"></i>
+        <div class="menu-dropdown lg-hidden sm-visible">
+            <i class="fa fa-bars"></i>
+        </div>
     </nav>
 </section>
