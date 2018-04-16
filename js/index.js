@@ -1,5 +1,8 @@
 
+$(".drop-button").click(function() {
+    console.log("home button test");
+});
 
-$("button").click(function() {
-    console.log("hi");
+$("li").click(function() {
+    console.log("navbar test");
 });
