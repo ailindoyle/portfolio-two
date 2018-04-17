@@ -103,6 +103,7 @@ li:hover {
 
 .lg-col-2 {
     width: 50%;
+    float: left;
 }
 
 .key-skill {
@@ -113,4 +114,10 @@ li:hover {
 .icon {
     font-size: 3rem;
     color: #263238;
+}
+
+.technology img {
+    height: 50px;
+    padding: 10px 10px;
+    float: left;
 }
