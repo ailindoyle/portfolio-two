@@ -1,12 +1,3 @@
-<!--<?php-->
-<!--require 'functions.php';-->
-
-<!--$db = new PDO('mysql:host=127.0.0.1; dbname=portfolio-two', 'root');-->
-<!--$db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);-->
-
-<!--$projectRow = getProjects($db);-->
-
-<!--?>-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -57,12 +48,11 @@
     </div>
     <div class="container">
         <div class="key-interests">
-            <?php echo displayProjects($projectRow); ?>
             <div class="key-skill skill-one lg-col-4 sm-col-2">
                 <div class="icon">
                     <i class="fa fa-chart-area"></i>
                 </div>
-                <div class="text">
+                <div>
                     <p>data analytics</p>
                 </div>
             </div>
@@ -70,7 +60,7 @@
                 <div class="icon">
                     <i class="fa fa-database"></i>
                 </div>
-                <div class="text">
+                <div>
                     <p>databases</p>
                 </div>
             </div>
@@ -78,7 +68,7 @@
                 <div class="icon">
                     <i class="fa fa-desktop"></i>
                 </div>
-                <div class="text">
+                <div>
                     <p>web design / development</p>
                 </div>
             </div>
@@ -86,7 +76,7 @@
                 <div class="icon">
                     <i class="fa fa-users"></i>
                 </div>
-                <div class="text">
+                <div>
                     <p>scrum / agile</p>
                 </div>
             </div>
@@ -146,48 +136,61 @@
         <h2>PROJECTS</h2>
     </div>
     <div class="projects container">
-        <div class="card lg-col-3">
-            <div class="project-hover project-one">
-                <div>Project Name</div>
-                <div>Technologies used</div>
-                <div class="button">See Project</div>
-            </div>
+
+        <div class="lg-col-3">
+            <div class="card project-one"></div>
+            <!--<div class="project-hover-active">-->
+                <!--<div class="bold">Solar System</div>-->
+                <!--<span class="highlight-raspberry">HTML / CSS</span>-->
+            <!--</div>-->
+            <!--<div class="button" id="mayrio-kart">See Project</div>-->
         </div>
-        <div class="card project-two lg-col-3">
-            <div class="project-hover">
-                <div>Project Name</div>
-                <div>Technologies used</div>
-                <div class="button">See Project</div>
-            </div>
+
+        <div class="lg-col-3">
+            <div class="card project-two"></div>
+                <!--<div class="text">-->
+                    <!--<div class="bold">May-rio Kart</div>-->
+                    <!--<span class="highlight-raspberry">JavaScript / JQuery / CSS / HTML</span>-->
+                <!--</div>-->
+                <!--<div class="button" id="project-name">See Project</div>-->
         </div>
-        <div class="card project-three lg-col-3">
-            <div class="project-hover">
-                <div>Project Name</div>
-                <div>Technologies used</div>
-                <div class="button">See Project</div>
-            </div>
+
+        <div class="lg-col-3">
+            <div class="card project-three"></div>
+            <!--<div class="text">-->
+            <!--<div class="bold">Project Name</div>-->
+            <!--<span class="highlight-raspberry">Technologies</span>-->
+            <!--</div>-->
+            <!--<div class="button" id="project-name">See Project</div>-->
         </div>
-        <div class="card project-four lg-col-3">
-            <div class="project-hover">
-                <div>Project Name</div>
-                <div>Technologies used</div>
-                <div class="button">See Project</div>
-            </div>
+
+        <div class="lg-col-3">
+            <div class="card project-four"></div>
+            <!--<div class="text">-->
+            <!--<div class="bold">Project Name</div>-->
+            <!--<span class="highlight-raspberry">Technologies</span>-->
+            <!--</div>-->
+            <!--<div class="button" id="project-name">See Project</div>-->
         </div>
-        <div class="card project-five lg-col-3">
-            <div class="project-hover">
-                <div>Project Name</div>
-                <div>Technologies used</div>
-                <div class="button">See Project</div>
-            </div>
+
+        <div class="lg-col-3">
+            <div class="card project-five"></div>
+            <!--<div class="text">-->
+            <!--<div class="bold">Project Name</div>-->
+            <!--<span class="highlight-raspberry">Technologies</span>-->
+            <!--</div>-->
+            <!--<div class="button" id="project-name">See Project</div>-->
         </div>
-        <div class="card project-six lg-col-3">
-            <div class="project-hover">
-                <div>Project Name</div>
-                <div>Technologies used</div>
-                <div class="button">See Project</div>
-            </div>
+
+        <div class="lg-col-3">
+            <div class="card project-six"></div>
+            <!--<div class="text">-->
+            <!--<div class="bold">Project Name</div>-->
+            <!--<span class="highlight-raspberry">Technologies</span>-->
+            <!--</div>-->
+            <!--<div class="button" id="project-name">See Project</div>-->
         </div>
+
     </div>
 </section>
 </body>

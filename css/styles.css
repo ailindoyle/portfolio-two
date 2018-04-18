@@ -28,6 +28,7 @@ a {
 
 .lg-col-3 {
     width: 33.333333333%;
+    float: left;
 }
 
 /*HOME*/
@@ -76,6 +77,8 @@ a {
 .drop-button:hover .arrow {
     transform: rotate(90deg);
 }
+
+/*NAVBAR*/
 
 li {
     list-style: none;
@@ -161,14 +164,45 @@ li:hover {
 
 .card {
     background-color: #c70039;
-    float: left;
+    width: 100%;
+    padding-top: 80%;
 }
 
 .project-one {
+    background-image: url("../images/projects/solarsystem.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.project-two {
     background-image: url("../images/projects/mayriokart.png");
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
+
+/*.project-three {*/
+    /*background-image: url("../images/projects/mayriokart.png");*/
+    /*background-size: 100% auto;*/
+    /*background-repeat: no-repeat;*/
+/*}*/
+
+/*.project-four {*/
+    /*background-image: url("../images/projects/mayriokart.png");*/
+    /*background-size: 100% auto;*/
+    /*background-repeat: no-repeat;*/
+/*}*/
+
+/*.project-five {*/
+    /*background-image: url("../images/projects/mayriokart.png");*/
+    /*background-size: 100% auto;*/
+    /*background-repeat: no-repeat;*/
+/*}*/
+
+/*.project-six {*/
+    /*background-image: url("../images/projects/mayriokart.png");*/
+    /*background-size: 100% auto;*/
+    /*background-repeat: no-repeat;*/
+/*}*/
 
 .project-hover {
      /*background-color: rgba(255,255,255,0.9);*/
