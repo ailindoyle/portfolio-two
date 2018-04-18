@@ -164,15 +164,21 @@ li:hover {
     float: left;
 }
 
-/*.project-hover {*/
-     /*background-color: rgba(255,255,255,0.8);*/
-     /*width: 100%;*/
+.project-one {
+    background-image: url("../images/projects/mayriokart.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.project-hover {
+     /*background-color: rgba(255,255,255,0.9);*/
+     width: 100%;
      /*height: 100%;*/
      /*position: absolute;*/
      /*top: 0;*/
      /*left: 0;*/
- /*}*/
+ }
 
-/*.project-hover:hover {*/
-    /*cursor: pointer;*/
-/*}*/
+.project-hover:hover {
+    cursor: pointer;
+}

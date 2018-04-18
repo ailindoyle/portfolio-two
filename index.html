@@ -1,3 +1,13 @@
+<!--<?php-->
+<!--require 'functions.php';-->
+
+<!--$db = new PDO('mysql:host=127.0.0.1; dbname=portfolio-two', 'root');-->
+<!--$db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);-->
+
+<!--$projectRow = getProjects($db);-->
+
+<!--?>-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,6 +57,7 @@
     </div>
     <div class="container">
         <div class="key-interests">
+            <?php echo displayProjects($projectRow); ?>
             <div class="key-skill skill-one lg-col-4 sm-col-2">
                 <div class="icon">
                     <i class="fa fa-chart-area"></i>
@@ -136,41 +147,41 @@
     </div>
     <div class="projects container">
         <div class="card lg-col-3">
+            <div class="project-hover project-one">
+                <div>Project Name</div>
+                <div>Technologies used</div>
+                <div class="button">See Project</div>
+            </div>
+        </div>
+        <div class="card project-two lg-col-3">
             <div class="project-hover">
                 <div>Project Name</div>
                 <div>Technologies used</div>
                 <div class="button">See Project</div>
             </div>
         </div>
-        <div class="card lg-col-3">
+        <div class="card project-three lg-col-3">
             <div class="project-hover">
                 <div>Project Name</div>
                 <div>Technologies used</div>
                 <div class="button">See Project</div>
             </div>
         </div>
-        <div class="card lg-col-3">
+        <div class="card project-four lg-col-3">
             <div class="project-hover">
                 <div>Project Name</div>
                 <div>Technologies used</div>
                 <div class="button">See Project</div>
             </div>
         </div>
-        <div class="card lg-col-3">
+        <div class="card project-five lg-col-3">
             <div class="project-hover">
                 <div>Project Name</div>
                 <div>Technologies used</div>
                 <div class="button">See Project</div>
             </div>
         </div>
-        <div class="card lg-col-3">
-            <div class="project-hover">
-                <div>Project Name</div>
-                <div>Technologies used</div>
-                <div class="button">See Project</div>
-            </div>
-        </div>
-        <div class="card lg-col-3">
+        <div class="card project-six lg-col-3">
             <div class="project-hover">
                 <div>Project Name</div>
                 <div>Technologies used</div>
