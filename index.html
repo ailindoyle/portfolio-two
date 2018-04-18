@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="handlebars-v4.0.11.js"></script>
     <script>
         FontAwesomeConfig = { searchPseudoElements: true };
     </script>
@@ -13,12 +14,12 @@
     <script defer src="js/index.js"></script>
 </head>
 <body>
-<!-- HOME -->
+<!--HOME-->
 <section id="home">
     <div class="canvas"></div>
     <div class="container">
         <div class="home-banner">
-            <span class="highlight">Caitlin Doyle</span>
+            <span class="highlight-mint">Caitlin Doyle</span>
             <br>
             Full-stack web developer in training
         </div>
@@ -40,5 +41,93 @@
     </nav>
 </section>
 <!--ABOUT-->
+<section id="about">
+    <div class="header container">
+        <h2>ABOUT</h2>
+    </div>
+    <div class="container">
+        <div class="key-interests">
+            <div class="key-skill skill-one lg-col-4 sm-col-2">
+                <div class="icon">
+                    <i class="fa fa-chart-area"></i>
+                </div>
+                <div class="text">
+                    <p>data analytics</p>
+                </div>
+            </div>
+            <div class="key-skill skill-two lg-col-4 sm-col-2">
+                <div class="icon">
+                    <i class="fa fa-database"></i>
+                </div>
+                <div class="text">
+                    <p>databases</p>
+                </div>
+            </div>
+            <div class="key-skill skill-three lg-col-4 sm-col-2">
+                <div class="icon">
+                    <i class="fa fa-desktop"></i>
+                </div>
+                <div class="text">
+                    <p>web design / development</p>
+                </div>
+            </div>
+            <div class="key-skill skill-four lg-col-4 sm-col-2">
+                <div class="icon">
+                    <i class="fa fa-users"></i>
+                </div>
+                <div class="text">
+                    <p>scrum / agile</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container main-skills">
+        <div class="info lg-col-2 sm-col-1">
+            <div class="picture">
+                <img src="images/temp_picture.jpg" alt="Me">
+            </div>
+            <div>
+                <p>SOMETHING ABOUT ME</p>
+            </div>
+        </div>
+        <div class="skills lg-col-2 sm-col-1">
+            <div class="bar">
+                <div class="fill" style="width: 60%">
+                    <div class="tag">HTML / CSS</div>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="fill" style="width: 40%">
+                    <div class="tag">JavaScript</div>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="fill" style="width: 55%">
+                    <div class="tag">PHP</div>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="fill" style="width: 60%">
+                    <div class="tag">MySQL</div>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="fill" style="width: 30%">
+                    <div class="tag">MongoDB</div>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="fill" style="width: 60%">
+                    <div class="tag">Tableau</div>
+                </div>
+            </div>
+            <div class="bar">
+                <div class="fill" style="width: 60%">
+                    <div class="tag">Scrum / Agile</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 </body>
 </html>
