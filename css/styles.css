@@ -87,14 +87,14 @@ li:hover {
 
 .header {
     padding: 20px 0;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .picture img {
     display: block;
     margin: 0 auto;
     border-radius: 50%;
-    width: 250px;
+    width: 200px;
 }
 
 .lg-col-4 {
@@ -120,4 +120,23 @@ li:hover {
     height: 50px;
     padding: 10px 10px;
     float: left;
+}
+
+.bar {
+    width: 90%;
+    margin: 0 0 15px 0;
+    background-color: #cfd8dc;
+    color: #ffffff;
+}
+
+.fill {
+    background-color: #c70039;
+}
+
+.tag {
+    font-size: 0.9rem;
+    width: 120px;
+    background-color: #900c3f;
+    height: 30px;
+    padding: 8px 0;
 }
