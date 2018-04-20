@@ -167,13 +167,24 @@ li:hover {
 }
 
 .card {
-    background-color: #c70039;
     width: 100%;
     padding-top: 80%;
+    position: relative;
 }
 
 .card:hover {
     cursor: pointer;
+}
+
+.project-summary {
+    font-size: 1.3rem;
+    background-color: rgba(255,255,255,0.85);
+
+}
+
+.project-button {
+    border: 2px solid #c70039;
+    background-color: rgba(255,255,255,0.85);
 }
 
 .project-one {
@@ -188,27 +199,28 @@ li:hover {
     background-repeat: no-repeat;
 }
 
-/*.project-three {*/
-    /*background-image: url("../images/projects/mayriokart.png");*/
-    /*background-size: 100% auto;*/
-    /*background-repeat: no-repeat;*/
-/*}*/
+.project-three {
+    background-image: url("../images/projects/pilotshop.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
 
-/*.project-four {*/
-    /*background-image: url("../images/projects/mayriokart.png");*/
-    /*background-size: 100% auto;*/
-    /*background-repeat: no-repeat;*/
-/*}*/
+.project-four {
+    background-image: url("../images/projects/cms.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
 
-/*.project-five {*/
-    /*background-image: url("../images/projects/mayriokart.png");*/
-    /*background-size: 100% auto;*/
-    /*background-repeat: no-repeat;*/
-/*}*/
+.project-five {
+    background-image: url("../images/projects/aptitudetest.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
 
-/*.project-six {*/
+.project-six {
+    background-color: #00c78e;
     /*background-image: url("../images/projects/mayriokart.png");*/
     /*background-size: 100% auto;*/
     /*background-repeat: no-repeat;*/
-/*}*/
+}
 
