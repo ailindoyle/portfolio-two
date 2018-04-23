@@ -23,6 +23,16 @@ a {
     color: #c70039;
 }
 
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    overflow: auto;
+}
+
+.section-margins {
+    padding: 0 0 50px;
+}
+
 /*COLUMNS*/
 
 .lg-col-4 {
@@ -46,12 +56,6 @@ a {
     color: #ffffff;
     width: 100vw;
     height: 100%;
-}
-
-.container {
-    margin: 0 auto;
-    width: 1200px;
-    overflow: auto;
 }
 
 .home-banner {
@@ -99,10 +103,6 @@ li:hover {
 
 .lg-hidden {
     visibility: hidden;
-}
-
-.section-margins {
-    padding: 0 0 50px;
 }
 
 /*ABOUT */
@@ -163,7 +163,7 @@ li:hover {
 
 #portfolio {
     color: #263238;
-    background-color: #cfd8dc;
+    background-color: #eceff1;
 }
 
 .card {
@@ -224,3 +224,40 @@ li:hover {
     /*background-repeat: no-repeat;*/
 }
 
+/*CONTACT*/
+
+
+#contact {
+    background-color:  #546e7a;
+    color: #ffffff;
+}
+
+.form-element {
+    width: 50%;
+    padding: 10px;
+    background-color:  #263238;
+    border: none;
+    color: #ffffff;
+    display: block;
+    margin: 0 25% 15px;
+}
+
+textarea {
+    height: 200px;
+    overflow: auto;
+}
+
+.send-button {
+    padding: 10px 25px;
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 0;
+    border: 2px solid #ffffff;
+    transition: all .5s ease-in-out;
+}
+
+.send-button:hover {
+    border: 2px solid #00c78e;
+    background-color: #00c78e;
+    cursor: pointer;
+}
