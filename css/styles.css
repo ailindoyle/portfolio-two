@@ -33,6 +33,11 @@ a {
     padding: 0 0 50px;
 }
 
+.header {
+    padding: 0 0 20px;
+    font-size: 1.7rem;
+}
+
 /*COLUMNS*/
 
 .lg-col-4 {
@@ -112,11 +117,6 @@ li:hover {
     background-color: #ffffff;
 }
 
-.header {
-    padding: 0 0 20px;
-    font-size: 1.7rem;
-}
-
 .picture img {
     display: block;
     margin: 0 auto;
@@ -129,7 +129,7 @@ li:hover {
     padding: 10px 0 50px;
 }
 
-.icon {
+.about-icon {
     font-size: 3rem;
     color: #263238;
 }
@@ -226,7 +226,6 @@ li:hover {
 
 /*CONTACT*/
 
-
 #contact {
     background-color:  #546e7a;
     color: #ffffff;
@@ -260,4 +259,31 @@ textarea {
     border: 2px solid #00c78e;
     background-color: #00c78e;
     cursor: pointer;
+}
+
+/*FOOTER*/
+
+#footer {
+    background-color:  #263238;
+    color: #ffffff;
+    padding: 20px 0 0;
+}
+
+.footer-icon {
+    margin: 10px 20px;
+    font-size: 3rem;
+}
+
+.media {
+    display: inline-block;
+    transition: all .5s ease-in-out;
+}
+
+.media:hover {
+    cursor: pointer;
+    color: #546e7a;
+}
+
+.copyright p {
+    color: #546e7a;
 }
