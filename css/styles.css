@@ -104,6 +104,7 @@ li {
 li:hover {
     cursor: pointer;
     color: #c70039;
+    transition: all .5s ease-in-out;
 }
 
 .lg-hidden {
@@ -134,12 +135,6 @@ li:hover {
     color: #263238;
 }
 
-.technology img {
-    height: 50px;
-    padding: 10px 10px;
-    float: left;
-}
-
 .bar {
     width: 90%;
     margin: 0 0 15px 0;
@@ -152,11 +147,11 @@ li:hover {
 }
 
 .tag {
-    font-size: 0.9rem;
-    width: 120px;
+    font-size: 1.1rem;
+    width: 140px;
     background-color: #900c3f;
-    height: 30px;
-    padding: 8px 0;
+    height: 40px;
+    padding: 10px 0;
 }
 
 /*PORTFOLIO*/
@@ -219,9 +214,6 @@ li:hover {
 
 .project-six {
     background-color: #00c78e;
-    /*background-image: url("../images/projects/mayriokart.png");*/
-    /*background-size: 100% auto;*/
-    /*background-repeat: no-repeat;*/
 }
 
 /*CONTACT*/
