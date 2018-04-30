@@ -82,14 +82,13 @@ a {
 
 .home-text {
     width: 100%;
-    height: 100%;
     position: absolute;
-    top: 20%;
+    top: 30%;
 }
 
 .home-banner {
     font-size: 2rem;
-    padding: 100px 0 40px;
+    padding: 0 0 40px;
 }
 
 .name {
