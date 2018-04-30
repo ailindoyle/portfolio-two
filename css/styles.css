@@ -122,8 +122,10 @@ a {
 /*NAVBAR*/
 
 #navbar {
+    overflow: hidden;
     background-color: #263238;
     color: #ffffff;
+    z-index: 5;
 }
 
 li {
@@ -142,6 +144,16 @@ li:hover {
 
 .lg-hidden {
     visibility: hidden;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.sticky + #about {
+    padding-top: 60px;
 }
 
 /*ABOUT */
