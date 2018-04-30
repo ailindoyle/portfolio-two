@@ -5,6 +5,7 @@
 }
 
 body {
+    margin: 0;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     font-size: 1.2rem;
@@ -65,13 +66,29 @@ a {
 #home {
     background-color: #263238;
     color: #ffffff;
+    position: static;
     width: 100vw;
-    height: 100%;
+    height: 100vh;
+}
+
+#canvas {
+    width: 100%;
+    height: 100vh;
+    background: #263238;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.home-text {
+    width: 100%;
+    position: absolute;
+    top: 30%;
 }
 
 .home-banner {
     font-size: 2rem;
-    padding: 100px 0 40px;
+    padding: 0 0 40px;
 }
 
 .name {
@@ -103,6 +120,11 @@ a {
 }
 
 /*NAVBAR*/
+
+#navbar {
+    background-color: #263238;
+    color: #ffffff;
+}
 
 li {
     list-style: none;
