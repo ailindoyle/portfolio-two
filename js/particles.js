@@ -54,7 +54,7 @@ function draw() {
             }
         }
     }
-    ctx.lineWidth = 0.05;
+    ctx.lineWidth = 0.06;
     ctx.strokeStyle = '#00c78e';
     ctx.stroke();
 }
