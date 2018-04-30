@@ -125,6 +125,7 @@ a {
     overflow: hidden;
     background-color: #263238;
     color: #ffffff;
+    z-index: 5;
 }
 
 li {
