@@ -1,0 +1,109 @@
+#portfolio {
+    color: #263238;
+    background-color: #eceff1;
+}
+
+.card {
+    background-color: #c70039;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.project-summary {
+    font-size: 1.3rem;
+    background-color: rgba(255,255,255,0.85);
+
+}
+
+.project-button {
+    border: 2px solid #c70039;
+    background-color: rgba(255,255,255,0.85);
+}
+
+.project-one {
+    background-image: url("../images/projects/solarsystem.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.project-two {
+    background-image: url("../images/projects/mayriokart.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.project-three {
+    background-image: url("../images/projects/pilotshop.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.project-four {
+    background-image: url("../images/projects/cms.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.project-five {
+    background-image: url("../images/projects/aptitudetest.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.project-six {
+    background-color: #00c78e;
+}
+
+.projects {
+    width: 90%;
+    max-width: 22em;
+    margin: 8% auto;
+}
+
+.card {
+    position: relative;
+    height: 15em;
+}
+.card h3 {
+    font-size: 1.3em;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.card-guts {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.card-liner {
+    padding: 20px 30px 40px;
+    background: #fff;
+}
+
+.card-front, .card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card-front {
+    z-index: 99;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card-back {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.card-back .card-liner {
+    background: #000000;
+    color: #ffffff;
+}
