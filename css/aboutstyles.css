@@ -1,0 +1,47 @@
+#about {
+    color: #263238;
+    background-color: #ffffff;
+}
+
+.picture img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    width: 250px;
+}
+
+.key-skill {
+    float: left;
+    padding: 20px 0 70px;
+}
+
+.key-summary {
+    padding: 0 18px;
+}
+
+.about-icon {
+    font-size: 3.5rem;
+    color: #900c3f;
+}
+
+.description {
+    padding: 0 50px;
+}
+
+.bar {
+    margin: 0 0 15px 0;
+    background-color: #cfd8dc;
+    color: #ffffff;
+}
+
+.fill {
+    background-color: #c70039;
+}
+
+.tag {
+    font-size: 1.1rem;
+    width: 140px;
+    background-color: #900c3f;
+    height: 30px;
+    padding: 6px 0;
+}

@@ -1,0 +1,34 @@
+#navbar {
+    overflow: hidden;
+    background-color: #263238;
+    color: #ffffff;
+    z-index: 5;
+}
+
+li {
+    list-style: none;
+    float: left;
+    margin-right: 25px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+li:hover {
+    cursor: pointer;
+    color: #c70039;
+    transition: all .5s ease-in-out;
+}
+
+.lg-hidden {
+    visibility: hidden;
+}
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.sticky + #about {
+    padding-top: 60px;
+}

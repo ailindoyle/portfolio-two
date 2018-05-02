@@ -1,0 +1,89 @@
+#portfolio {
+    color: #263238;
+    background-color: #eceff1;
+}
+
+.card {
+    position: relative;
+    height: 15em;
+    -webkit-perspective: 900px;
+    perspective: 900px;
+}
+
+.projects {
+    padding: 45px 0;
+}
+
+.front, .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.front {
+    z-index: 4;
+}
+
+.back {
+    background: #ffffff;
+}
+
+.project-title {
+    padding-top: 20%;
+    font-size: 1.7rem;
+}
+
+.project-technologies {
+    padding: 5%;
+    font-size: 1.5rem;
+}
+
+.project-button {
+    font-size: 1.5rem;
+    width: 45%;
+    margin: 5% 27.5%;
+    padding: 5px 10px;
+    border: 2px solid #c70039;
+}
+
+.project-button:hover {
+    cursor: pointer;
+}
+
+.project-one {
+    background-image: url("../images/projects/solarsystem.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.project-two {
+    background-image: url("../images/projects/mayriokart.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.project-three {
+    background-image: url("../images/projects/pilotshop.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.project-four {
+    background-image: url("../images/projects/cms.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.project-five {
+    background-image: url("../images/projects/aptitudetest.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.project-six {
+    background-color: #00c78e;
+}

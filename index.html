@@ -5,6 +5,13 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,500">
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="css/homestyles.css"/>
+    <link rel="stylesheet" type="text/css" href="css/navbarstyles.css"/>
+    <link rel="stylesheet" type="text/css" href="css/aboutstyles.css"/>
+    <link rel="stylesheet" type="text/css" href="css/portfoliostyles.css"/>
+    <link rel="stylesheet" type="text/css" href="css/contactstyles.css"/>
+    <script src="vendor/jquery-3.3.1.min.js"></script>
+    <script src="vendor/jquery.flip.min.js"></script>
     <script>
         FontAwesomeConfig = { searchPseudoElements: true };
     </script>
@@ -12,6 +19,7 @@
     <script defer src="js/index.js"></script>
     <script defer src="js/particles.js"></script>
     <script defer src="js/navbar.js"></script>
+    <script defer src="js/project-tiles.js"></script>
 </head>
 <body>
 <!--HOME-->
@@ -160,38 +168,77 @@
         <h2>PROJECTS</h2>
     </div>
     <div class="projects container">
-        <div class="lg-col-3">
-            <a href="https://dev.maydenacademy.co.uk/students/2018/caitlin/solar_system/" target="_blank">
-                <div class="card project-one"></div>
-            </a>
-            <!--<div class="project-summary">-->
-                <!--<div class="bold">Solar System</div>-->
-                <!--<div class="highlight-raspberry">HTML / CSS</div>-->
-            <!--</div>-->
-            <!--<div class="project-button" id="solar-system">See Project</div>-->
+        <div class="wrap lg-col-3">
+            <div class="card">
+                <div class="front project-one"></div>
+                <div class="back">
+                    <div class="project-title bold">Solar System</div>
+                    <div class="project-technologies highlight-raspberry">HTML / CSS</div>
+                    <a href="https://dev.maydenacademy.co.uk/students/2018/ailin/solar-system/" target="_blank">
+                        <div class="project-button">See Project</div>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="lg-col-3">
-            <a href="https://github.com/Mayden-Academy/2018JSGame" target="_blank">
-                <div class="card project-two"></div>
-            </a>
+        <div class="wrap lg-col-3">
+            <div class="card">
+                <div class="front project-two"></div>
+                <div class="back">
+                    <div class="project-title bold">JavaScript Game</div>
+                    <div class="project-technologies highlight-raspberry">JavaScript / JQuery</div>
+                    <a href="https://github.com/Mayden-Academy/2018JSGame" target="_blank">
+                        <div class="project-button">See Project</div>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="lg-col-3">
-            <a href="https://github.com/ailindoyle/pilot-shop" target="_blank">
-                <div class="card project-three"></div>
-            </a>
+        <div class="wrap lg-col-3">
+            <div class="card">
+                <div class="front project-three"></div>
+                <div class="back">
+                    <div class="project-title bold">PilotShop</div>
+                    <div class="project-technologies highlight-raspberry">HTML / CSS / JSON</div>
+                    <a href="https://dev.maydenacademy.co.uk/students/2018/ailin/pilotshop-V2/" target="_blank">
+                        <div class="project-button">See Project</div>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="lg-col-3">
-            <a href="https://github.com/ailindoyle/Portfolio" target="_blank">
-                <div class="card project-four"></div>
-            </a>
+        <div class="wrap lg-col-3">
+            <div class="card">
+                <div class="front project-four"></div>
+                <div class="back">
+                    <div class="project-title bold">Content Management System</div>
+                    <div class="project-technologies highlight-raspberry">PHP / MySQL</div>
+                    <a href="https://github.com/ailindoyle/Portfolio" target="_blank">
+                        <div class="project-button">See Project</div>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="lg-col-3">
-            <a href="https://github.com/Mayden-Academy/aptitude-test" target="_blank">
-                <div class="card project-five"></div>
-            </a>
+        <div class="wrap lg-col-3">
+            <div class="card">
+                <div class="front project-five"></div>
+                <div class="back">
+                    <div class="project-title bold">Aptitude Test</div>
+                    <div class="project-technologies highlight-raspberry">JavaScript</div>
+                    <a href="https://github.com/Mayden-Academy/aptitude-test" target="_blank">
+                        <div class="project-button">See Project</div>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="lg-col-3">
-            <div class="card project-six"></div>
+        <div class="wrap lg-col-3">
+            <div class="card">
+                <div class="front project-six"></div>
+                <div class="back">
+                    <div class="project-title bold">New Project</div>
+                    <div class="project-technologies highlight-raspberry"></div>
+                    <a href="#" target="_blank">
+                        <div class="project-button">See Project</div>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </section>
