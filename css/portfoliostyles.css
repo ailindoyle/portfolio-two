@@ -10,8 +10,8 @@
     perspective: 900px;
 }
 
-.wrap {
-    /*margin: 2% auto;*/
+.projects {
+    padding: 45px 0;
 }
 
 .front, .back {
