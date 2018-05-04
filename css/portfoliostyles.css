@@ -85,5 +85,7 @@
 }
 
 .project-six {
-    background-color: #00c78e;
+    background-image: url("../images/projects/totallypawesome.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
