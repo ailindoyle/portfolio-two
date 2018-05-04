@@ -1,16 +1,16 @@
 #contact {
-    background-color:  #546e7a;
     color: #ffffff;
+    background-color:  #546e7a;
 }
 
 .form-element {
-    width: 50%;
-    padding: 10px;
-    background-color:  #263238;
     color: #ffffff;
+    background-color:  #263238;
     display: block;
-    margin: 0 25% 15px;
+    width: 50%;
     border: 1px solid #263238;
+    padding: 10px;
+    margin: 0 25% 15px;
 }
 
 textarea {
@@ -25,11 +25,11 @@ input:focus, textarea:focus {
 }
 
 .send-button {
-    padding: 10px 25px;
-    background-color: transparent;
     color: #ffffff;
-    border-radius: 0;
+    padding: 10px 25px;
     border: 2px solid #ffffff;
+    border-radius: 0;
+    background-color: transparent;
     transition: all .5s ease-in-out;
 }
 
