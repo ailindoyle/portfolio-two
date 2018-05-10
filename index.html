@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/contactstyles.css"/>
     <script src="vendor/jquery-3.3.1.min.js"></script>
     <script src="vendor/jquery.flip.min.js"></script>
+    <script src="vendor/jquery.validate.min.js"></script>
     <script>
         FontAwesomeConfig = { searchPseudoElements: true };
     </script>
@@ -20,6 +21,7 @@
     <script defer src="js/particles.js"></script>
     <script defer src="js/navbar.js"></script>
     <script defer src="js/project-tiles.js"></script>
+    <script defer src="js/validate-email.js"></script>
 </head>
 <body>
 <!--HOME-->
@@ -256,11 +258,11 @@
         <p class="highlight-mint">Have a question or want to hire me?</p>
     </div>
     <div class="contact-form container">
-        <form>
-            <input class="form-element" placeholder="Name" type="text" name="name" required>
-            <input class="form-element" placeholder="Email" type="text" name="email" required>
-            <textarea class="form-element" placeholder="Your Message" type="text" name="message" required></textarea>
-            <input type="submit" id="submit" class="send-button" value=SEND>
+        <form id="email-form" action="php/send-email.php" method="post">
+            <input class="form-element" placeholder="Name" type="text" name="name" id="name" required>
+            <input class="form-element" placeholder="Email" type="text" name="email" id="email" required>
+            <textarea class="form-element" placeholder="Your Message" type="text" name="message" id="message" required></textarea>
+            <input class="send-button" type="submit" name="submit "id="submit" value=SEND>
         </form>
     </div>
 </section>
