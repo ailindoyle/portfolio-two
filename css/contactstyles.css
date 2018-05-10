@@ -38,3 +38,14 @@ input:focus, textarea:focus {
     background-color: #00c78e;
     cursor: pointer;
 }
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 1100px) {
+
+    .form-element {
+        width: 80%;
+        margin: 0 10% 15px;
+    }
+
+}

@@ -53,3 +53,33 @@
 .drop-button:hover .arrow {
     transform: rotate(90deg);
 }
+
+@media screen and (max-width: 550px) {
+
+
+    .home-banner {
+        font-size: 1.5rem;
+    }
+
+    .name {
+        font-size: 1.8rem;
+    }
+
+    .drop-button {
+        font-size: 1.3rem;
+    }
+
+
+}
+
+@media screen and (max-width: 350px) {
+
+    .home-banner {
+        font-size: 1.2rem;
+    }
+
+    .drop-button {
+        font-size: 1.1rem;
+    }
+
+}

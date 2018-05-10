@@ -10,17 +10,12 @@ li {
     float: left;
     margin-right: 25px;
     padding: 7px;
-    border-radius: 5px;
 }
 
 li:hover {
     cursor: pointer;
     color: #c70039;
     transition: all .5s ease-in-out;
-}
-
-.lg-hidden {
-    visibility: hidden;
 }
 
 .sticky {
@@ -31,4 +26,13 @@ li:hover {
 
 .sticky + #about {
     padding-top: 60px;
+}
+
+@media screen and (max-width: 550px) {
+
+    li {
+        margin-right: 5px;
+        font-size: 1rem;
+    }
+
 }
