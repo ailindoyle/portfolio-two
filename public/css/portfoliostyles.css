@@ -55,37 +55,37 @@
 }
 
 .project-one {
-    background-image: url("../images/projects/solarsystem.png");
+    background-image: url("../../images/projects/solarsystem.png");
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
 
 .project-two {
-    background-image: url("../images/projects/mayriokart.png");
+    background-image: url("../../images/projects/mayriokart.png");
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
 
 .project-three {
-    background-image: url("../images/projects/pilotshop.png");
+    background-image: url("../../images/projects/pilotshop.png");
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
 
 .project-four {
-    background-image: url("../images/projects/cms.png");
+    background-image: url("../../images/projects/cms.png");
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
 
 .project-five {
-    background-image: url("../images/projects/aptitudetest.png");
+    background-image: url("../../images/projects/aptitudetest.png");
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
 
 .project-six {
-    background-image: url("../images/projects/totallypawesome.png");
+    background-image: url("../../images/projects/totallypawesome.png");
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
