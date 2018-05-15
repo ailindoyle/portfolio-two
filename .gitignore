@@ -1,6 +1,7 @@
 .DS_Store
 .idea/
-fonts/fontawesome-free-5.0.10/
-images/
-php/
+public/fonts/fontawesome-free-5.0.10/
+public/images/
+public/vendor/
 vendor/
+src/

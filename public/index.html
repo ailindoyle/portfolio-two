@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Caitlin Doyle | Web Developer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ailin Doyle | Web Developer</title>
     <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:200,500">
     <link rel="stylesheet" type="text/css" href="css/styles.css"/>
@@ -12,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="css/contactstyles.css"/>
     <script src="vendor/jquery-3.3.1.min.js"></script>
     <script src="vendor/jquery.flip.min.js"></script>
+    <script src="vendor/jquery.validate.min.js"></script>
     <script>
         FontAwesomeConfig = { searchPseudoElements: true };
     </script>
@@ -20,6 +23,7 @@
     <script defer src="js/particles.js"></script>
     <script defer src="js/navbar.js"></script>
     <script defer src="js/project-tiles.js"></script>
+    <script defer src="js/validate-email.js"></script>
 </head>
 <body>
 <!--HOME-->
@@ -27,7 +31,7 @@
     <canvas id="canvas"></canvas>
     <div class="home-text container">
         <div class="home-banner">
-            <div class="name highlight-mint">Caitlin Doyle</div>
+            <div class="name highlight-mint">Ailin Doyle</div>
             <div class="tagline">
             Full-stack web developer with an
             <br>
@@ -58,9 +62,6 @@
                 <a href="#contact">contact</a>
             </li>
         </ul>
-        <div class="menu-dropdown lg-hidden sm-visible">
-            <i class="fa fa-bars"></i>
-        </div>
     </nav>
 </section>
 <!--ABOUT-->
@@ -70,7 +71,7 @@
     </div>
     <div class="container">
         <div class="key-interests">
-            <div class="key-skill skill-three lg-col-4 sm-col-2">
+            <div class="key-skill skill-three lg-col-4 tb-col-2 sm-col-1">
                 <div class="about-icon">
                     <i class="fa fa-desktop"></i>
                 </div>
@@ -79,7 +80,7 @@
                     <p class="key-summary">Adept at both front- and back-end technologies</p>
                 </div>
             </div>
-            <div class="key-skill skill-one lg-col-4 sm-col-2">
+            <div class="key-skill skill-one lg-col-4 tb-col-2 sm-col-1">
                 <div class="about-icon">
                     <i class="fa fa-database"></i>
                 </div>
@@ -88,7 +89,7 @@
                     <p class="key-summary">Skilled at analysing data to discover patterns</p>
                 </div>
             </div>
-            <div class="key-skill skill-two lg-col-4 sm-col-2">
+            <div class="key-skill skill-two lg-col-4 tb-col-2 sm-col-1">
                 <div class="about-icon">
                     <i class="fa fa-chart-pie"></i>
                 </div>
@@ -97,7 +98,7 @@
                     <p class="key-summary">Passionate about making data interesting</p>
                 </div>
             </div>
-            <div class="key-skill skill-four lg-col-4 sm-col-2">
+            <div class="key-skill skill-four lg-col-4 tb-col-2 sm-col-1">
                 <div class="about-icon">
                     <i class="fa fa-cogs"></i>
                 </div>
@@ -120,52 +121,52 @@
         </div>
         <div class="skills lg-col-2 sm-col-1">
             <div class="bar">
-                <div class="fill" style="width: 60%">
+                <div class="fill" style="width: 80%">
                     <div class="tag">HTML / CSS</div>
                 </div>
             </div>
             <div class="bar">
-                <div class="fill" style="width: 40%">
+                <div class="fill" style="width: 70%">
                     <div class="tag">JavaScript</div>
                 </div>
             </div>
             <div class="bar">
-                <div class="fill" style="width: 30%">
+                <div class="fill" style="width: 45%">
                     <div class="tag">Node.js</div>
                 </div>
             </div>
             <div class="bar">
-                <div class="fill" style="width: 30%">
+                <div class="fill" style="width: 45%">
                     <div class="tag">React</div>
                 </div>
             </div>
             <div class="bar">
-                <div class="fill" style="width: 55%">
+                <div class="fill" style="width: 65%">
                     <div class="tag">PHP</div>
                 </div>
             </div>
             <div class="bar">
-                <div class="fill" style="width: 60%">
+                <div class="fill" style="width: 75%">
                     <div class="tag">MySQL</div>
                 </div>
             </div>
             <div class="bar">
-                <div class="fill" style="width: 30%">
+                <div class="fill" style="width: 45%">
                     <div class="tag">MongoDb</div>
                 </div>
             </div>
             <div class="bar">
-                <div class="fill" style="width: 60%">
+                <div class="fill" style="width: 80%">
                     <div class="tag">Tableau</div>
                 </div>
             </div>
             <div class="bar">
-                <div class="fill" style="width: 65%">
+                <div class="fill" style="width: 80%">
                     <div class="tag">R</div>
                 </div>
             </div>
             <div class="bar">
-                <div class="fill" style="width: 60%">
+                <div class="fill" style="width: 70%">
                     <div class="tag">Scrum / Agile</div>
                 </div>
             </div>
@@ -178,7 +179,7 @@
         <h2>PROJECTS</h2>
     </div>
     <div class="projects container">
-        <div class="wrap lg-col-3">
+        <div class="wrap lg-col-3 tb-col-2 sm-col-1">
             <div class="card">
                 <div class="front project-one"></div>
                 <div class="back">
@@ -190,7 +191,7 @@
                 </div>
             </div>
         </div>
-        <div class="wrap lg-col-3">
+        <div class="wrap lg-col-3 tb-col-2 sm-col-1">
             <div class="card">
                 <div class="front project-two"></div>
                 <div class="back">
@@ -202,19 +203,7 @@
                 </div>
             </div>
         </div>
-        <div class="wrap lg-col-3">
-            <div class="card">
-                <div class="front project-three"></div>
-                <div class="back">
-                    <div class="project-title bold">PilotShop</div>
-                    <div class="project-technologies highlight-raspberry">HTML / CSS / JSON</div>
-                    <a href="https://dev.maydenacademy.co.uk/students/2018/ailin/pilotshop-V2/" target="_blank">
-                        <div class="project-button">See Project</div>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="wrap lg-col-3">
+        <div class="wrap lg-col-3 tb-col-2 sm-col-1">
             <div class="card">
                 <div class="front project-four"></div>
                 <div class="back">
@@ -226,7 +215,7 @@
                 </div>
             </div>
         </div>
-        <div class="wrap lg-col-3">
+        <div class="wrap lg-col-3 tb-col-2 sm-col-1">
             <div class="card">
                 <div class="front project-five"></div>
                 <div class="back">
@@ -238,13 +227,25 @@
                 </div>
             </div>
         </div>
-        <div class="wrap lg-col-3">
+        <div class="wrap lg-col-3 tb-col-2 sm-col-1">
+            <div class="card">
+                <div class="front project-three"></div>
+                <div class="back">
+                    <div class="project-title bold">PilotShop</div>
+                    <div class="project-technologies highlight-raspberry">HTML / CSS / JSON</div>
+                    <a href="https://dev.maydenacademy.co.uk/students/2018/ailin/pilotshop-V2/" target="_blank">
+                        <div class="project-button">See Project</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="wrap lg-col-3 tb-col-2 sm-col-1">
             <div class="card">
                 <div class="front project-six"></div>
                 <div class="back">
-                    <div class="project-title bold">New Project</div>
-                    <div class="project-technologies highlight-raspberry"></div>
-                    <a href="#" target="_blank">
+                    <div class="project-title bold">E-commerce Store</div>
+                    <div class="project-technologies highlight-raspberry">PHP / MySQL</div>
+                    <a href="https://dev.maydenacademy.co.uk/projects/2018Feb/totallyPawsome/" target="_blank">
                         <div class="project-button">See Project</div>
                     </a>
                 </div>
@@ -259,11 +260,11 @@
         <p class="highlight-mint">Have a question or want to hire me?</p>
     </div>
     <div class="contact-form container">
-        <form>
-            <input class="form-element" placeholder="Name" type="text" name="name" required>
-            <input class="form-element" placeholder="Email" type="text" name="email" required>
-            <textarea class="form-element" placeholder="Your Message" type="text" name="message" required></textarea>
-            <input type="submit" id="submit" class="send-button" value=SEND>
+        <form id="email-form" action="../src/send-email.php" method="post">
+            <input class="form-element" placeholder="Name" type="text" name="name" id="name" required>
+            <input class="form-element" placeholder="Email" type="text" name="email" id="email" required>
+            <textarea class="form-element" placeholder="Your Message" type="text" name="message" id="message" required></textarea>
+            <input class="send-button" type="submit" name="submit "id="submit" value=SEND>
         </form>
     </div>
 </section>
@@ -271,28 +272,29 @@
 <section id="footer" class="section-margins">
     <div class="social-media container">
         <div class="footer-icon media">
-            <a href="#https://www.linkedin.com/in/ailin-doyle-304abbb0/" target="_blank">
+            <a href="https://www.linkedin.com/in/ailin-doyle-304abbb0/" target="_blank">
                 <i class="fab fa-linkedin"></i>
             </a>
         </div>
         <div class="footer-icon media">
-            <a href="#https://twitter.com/ailinrdoyle" target="_blank">
+            <a href="https://twitter.com/ailinrdoyle" target="_blank">
                 <i class="fab fa-twitter"></i>
             </a>
         </div>
         <div class="footer-icon media">
-            <a href="#https://github.com/ailindoyle" target="_blank">
+            <a href="https://github.com/ailindoyle" target="_blank">
                 <i class="fab fa-github"></i>
             </a>
         </div>
         <div class="footer-icon media">
-            <a href="#https://codepen.io/ailindoyle/" target="_blank">
+            <a href="https://codepen.io/ailindoyle/" target="_blank">
                 <i class="fab fa-codepen"></i>
             </a>
         </div>
     </div>
     <div class="copyright container">
-        <p>CAITLIN DOYLE &copy2018</p>
+        <p>ailin.doyle@yahoo.com</p>
+        <p>AILIN DOYLE &copy2018</p>
     </div>
 </section>
 </body>

@@ -12,6 +12,10 @@ var stars = [], // Array that contains the stars
         y: 0
     }; // mouse location
 
+if ($(window).width() < 550) {
+    x = 35;
+}
+
 // Push stars to array
 
 for (var i = 0; i < x; i++) {
