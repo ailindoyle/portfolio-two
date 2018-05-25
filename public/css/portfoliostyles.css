@@ -26,6 +26,8 @@
 
 .front {
     z-index: 4;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
 }
 
 .back {
@@ -34,16 +36,16 @@
 
 .project-title {
     padding-top: 20%;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 .project-technologies {
     padding: 5%;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .project-button {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     width: 45%;
     margin: 5% 27.5%;
     padding: 5px 10px;
@@ -54,40 +56,54 @@
     cursor: pointer;
 }
 
-.project-one {
+.solar-system {
     background-image: url("../images/projects/solarsystem.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
 }
 
-.project-two {
+.javascript-game {
     background-image: url("../images/projects/mayriokart.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
 }
 
-.project-three {
+.pilotshop {
     background-image: url("../images/projects/pilotshop.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
 }
 
-.project-four {
+.portfolio-cms {
     background-image: url("../images/projects/cms.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
 }
 
-.project-five {
+.aptitude-test {
     background-image: url("../images/projects/aptitudetest.png");
+}
+
+.ecommerce-store {
+    background-image: url("../images/projects/totallypawesome.png");
+}
+
+.bootstrap-demo {
+    background-image: url("../images/projects/bootstrap.png");
+}
+
+.earth {
+    background-image: url("../images/projects/earth.png");
+}
+
+.academy-portal {
+    background-image: url("../images/projects/academy-portal.png");
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
 
-.project-six {
-    background-image: url("../images/projects/totallypawesome.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
+.task-api {
+    background-image: url("../images/projects/restful-api.png");
+}
+
+.timeline {
+    background-image: url("../images/projects/timeline.png");
+}
+
+.particles {
+    background-image: url("../images/projects/particles.png");
 }
 
 /*MEDIA QUERIES*/
